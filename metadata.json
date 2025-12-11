@@ -1,0 +1,8 @@
+{
+  "name": "TeleConsult Pro",
+  "description": "A high-fidelity, responsive telemedicine dashboard with glassmorphism design, patient management, appointment scheduling, and live teleconsultation interfaces.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
