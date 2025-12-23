@@ -6,6 +6,7 @@ import Patients from './pages/Patients';
 import Appointments from './pages/Appointments';
 import TeleconsultRoom from './pages/TeleconsultRoom';
 import Analytics from './pages/Analytics';
+import Login from './pages/Login';
 
 const App: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const App: React.FC = () => {
           <Route path="/patients" element={<Patients />} />
           <Route path="/appointments" element={<Appointments />} />
           <Route path="/room/:id" element={<TeleconsultRoom />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/prescriptions" element={<div className="text-slate-500 p-8 text-center">Prescriptions Module Placeholder</div>} />
           <Route path="/analytics" element={<Analytics />} />
           <Route path="*" element={<Navigate to="/" replace />} />
